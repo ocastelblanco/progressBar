@@ -1,0 +1,23 @@
+@charset "UTF-8";
+// Tipografias
+.progress-bar {
+    display: block;
+    height: 53px;
+    width: 612px;
+    border: solid 1px #000;
+    border-radius: 8px;
+    background-color: #fff;
+    .inner {
+        background-color: #0f0;
+        border-radius: 8px;
+        height: 100%;
+        width: 0;
+        #text {
+            text-align: center;
+            width: 100%;
+            display: block;
+            font-size: 20px;
+            padding-top: 13px;
+        }
+    }
+}
